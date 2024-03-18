@@ -9,7 +9,7 @@ const app = express();
 app.use(bodyParser.json());
 
 // Define the POST route for /bfhl
-app.post('/bhfl', (req, res) => {
+app.post('/bfhl', (req, res) => {
     try {
         // Extract data array from request body
         const { data } = req.body;
